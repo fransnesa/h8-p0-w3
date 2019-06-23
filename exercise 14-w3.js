@@ -2,7 +2,7 @@ function mengelompokkanAngka(arr) {
 var genap=[];
 var ganjil=[];
 var kelipatan3=[];
-var gabung=[];
+var gabung=[[],[],[]];
 for(var i =0; i<arr.length;i++){
     if(arr[i]%2===0&&arr[i]%3!==0){
         genap.push(arr[i]);
